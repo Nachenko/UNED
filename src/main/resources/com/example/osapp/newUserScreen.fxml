@@ -20,14 +20,14 @@
       <TextField layoutX="315.0" layoutY="172.0" />
       <TextField layoutX="315.0" layoutY="197.0" />
       <Label layoutX="55.0" layoutY="51.0" text="Nombre" />
-      <Label layoutX="53.0" layoutY="76.0" text="Cedula" />
+      <Label layoutX="53.0" layoutY="76.0" text="Cédula" />
       <Label layoutX="53.0" layoutY="101.0" text="Primer Apellido" />
       <Label layoutX="55.0" layoutY="126.0" text="Segundo Apellido" />
       <Label layoutX="55.0" layoutY="151.0" text="Fecha de Nacimiento" />
-      <Label layoutX="53.0" layoutY="181.0" text="Correo Electronico" />
+      <Label layoutX="53.0" layoutY="181.0" text="Correo Electrónico" />
       <Label layoutX="54.0" layoutY="206.0" text="Telefono de Contacto" />
-      <Label layoutX="55.0" layoutY="251.0" text="Contrasena" />
-      <Label layoutX="54.0" layoutY="288.0" text="Reingrese la contrasena" />
+      <Label layoutX="55.0" layoutY="251.0" text="Contraseña" />
+      <Label layoutX="54.0" layoutY="288.0" text="Reingrese la contraseña" />
       <Button layoutX="354.0" layoutY="352.0" mnemonicParsing="false" text="Crear Usuario" />
       <Button layoutX="468.0" layoutY="352.0" mnemonicParsing="false" text="Volver sin Guardar" />
    </children>
