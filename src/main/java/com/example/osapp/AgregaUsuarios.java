@@ -1,4 +1,4 @@
 package com.example.osapp;
 
-public class NewUserScreen {
+public class AgregaUsuarios {
 }

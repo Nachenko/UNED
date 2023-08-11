@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3328ed-d4b9-463a-b8ee-565d0b9e1e62" name="Changes" comment="Added UI for new user screen">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/RegistroCurso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/osapp/registroCurso.fxml" afterDir="false" />
+    <list default="true" id="5b3328ed-d4b9-463a-b8ee-565d0b9e1e62" name="Changes" comment="Added UI for registro de cursos">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/AgregaUsuariosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/AsignaCursos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/Curso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/UsuarioDataManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/osapp/asignaCursos.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuarios.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/osapp/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/osapp/newUserScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/osapp/newUserScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/osapp/NewUserScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/AgregaUsuarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/osapp/newUserScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/osapp/agregaUsuarios.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +57,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -63,6 +75,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_directory_selection": "/Users/nachi/IdeaProjects/UNED/OSapp/src/main/java/com/example/osapp",
@@ -70,17 +83,24 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.osapp" />
+      <recent name="com.example" />
+      <recent name="com" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.osapp.HelloApplication" />
       <module name="OSapp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.osapp.*" />
+          <option name="PATTERN" value="com.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691603301677</updated>
       <workItem from="1691603302684" duration="236000" />
-      <workItem from="1691603548461" duration="8216000" />
+      <workItem from="1691603548461" duration="17278000" />
     </task>
     <task id="LOCAL-00001" summary="Baseline">
       <option name="closed" value="true" />
@@ -129,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691676921218</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added UI for registro de cursos">
+      <option name="closed" value="true" />
+      <created>1691702446157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691702446157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +166,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Baseline" />
     <MESSAGE value="Added UI for new user screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added UI for new user screen" />
+    <MESSAGE value="Added UI for registro de cursos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added UI for registro de cursos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
