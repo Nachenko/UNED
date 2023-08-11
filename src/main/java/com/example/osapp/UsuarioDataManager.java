@@ -3,7 +3,6 @@ package com.example.osapp;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-
 import java.io.File;
 import java.io.IOException;
 import java.time.LocalDate;
@@ -35,7 +34,7 @@ public class UsuarioDataManager {
     public List<Usuario> cargarUsuarios() {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
-            objectMapper.registerModule(new JavaTimeModule()); // Register JavaTimeModule
+            objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
             return objectMapper.readValue(new File(USUARIOS_JSON_FILE), new TypeReference<List<Usuario>>() {});
         } catch (IOException e) {
             System.err.println("Error al cargar usuarios desde el archivo: " + e.getMessage());

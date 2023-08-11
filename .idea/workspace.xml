@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3328ed-d4b9-463a-b8ee-565d0b9e1e62" name="Changes" comment="Added UI for registro de cursos">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/AgregaUsuariosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/AsignaCursos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/UsuarioDataManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/osapp/asignaCursos.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios.json" afterDir="false" />
+    <list default="true" id="5b3328ed-d4b9-463a-b8ee-565d0b9e1e62" name="Changes" comment="Added classes and behaviors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/osapp/NewUserScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/AgregaUsuarios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/osapp/newUserScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/osapp/agregaUsuarios.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/osapp/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/osapp/UsuarioDataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/osapp/UsuarioDataManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691603301677</updated>
       <workItem from="1691603302684" duration="236000" />
-      <workItem from="1691603548461" duration="17278000" />
+      <workItem from="1691603548461" duration="18306000" />
     </task>
     <task id="LOCAL-00001" summary="Baseline">
       <option name="closed" value="true" />
@@ -157,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691702446157</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added classes and behaviors">
+      <option name="closed" value="true" />
+      <created>1691728478529</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691728478529</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +164,8 @@
     <MESSAGE value="Baseline" />
     <MESSAGE value="Added UI for new user screen" />
     <MESSAGE value="Added UI for registro de cursos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added UI for registro de cursos" />
+    <MESSAGE value="Added classes and behaviors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added classes and behaviors" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
